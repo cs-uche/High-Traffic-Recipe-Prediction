@@ -12,8 +12,8 @@ The goal for data scientists involved in this project is to analyze the provided
 The dataset contains information about recipes that have historically generated high traffic. Data scientists will explore, analyze, and model this dataset to extract meaningful patterns and develop a predictive model.
 
 ## Key Tasks
-1. **Data Exploration:** Dive into the dataset to understand its structure, variables, and potential patterns. [Link to Notebook](data_analysis.ipynb)
-2. **Analysis:** Uncover insights into the characteristics of recipes that lead to high traffic. [Link to Notebook](data_analysis.ipynb)
+1. **Data Exploration:** Dive into the dataset to understand its structure, variables, and potential patterns. [Link to Notebook](notebooks/data_analysis.ipynb)
+2. **Analysis:** Uncover insights into the characteristics of recipes that lead to high traffic. [Link to Notebook](notebooks/data_analysis.ipynb)
 3. **Model Development:** Build a predictive model to accurately forecast popular recipes.
 4. **Evaluation:** Assess the model's performance and refine as necessary for optimal predictions.
 
