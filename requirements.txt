@@ -1,0 +1,7 @@
+optuna
+numpy
+pandas 
+plotly
+seaborn
+sklearn
+xgboost
