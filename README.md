@@ -14,12 +14,21 @@ The dataset contains information about recipes that have historically generated 
 ## Key Tasks
 1. **Data Exploration:** Dive into the dataset to understand its structure, variables, and potential patterns. [Link to Notebook](notebooks/data_analysis.ipynb)
 2. **Analysis:** Uncover insights into the characteristics of recipes that lead to high traffic. [Link to Notebook](notebooks/data_analysis.ipynb)
-3. **Model Development:** Build a predictive model to accurately forecast popular recipes.
-4. **Evaluation:** Assess the model's performance and refine as necessary for optimal predictions.
+3. **Model Development:** Build a predictive model to accurately forecast popular recipes. [Link to Notebook](notebooks/predictive_modelling.ipynb)
+4. **Evaluation:** Assess the model's performance and refine as necessary for optimal predictions. [Link to Notebook](notebooks/predictive_modelling.ipynb)
+5. **DataOps + MLOps:** Steps to ensure the model is seamlessly integrated into production, continuously monitored, and efficiently manages data operations and machine learning operations for sustained performance and reliability.
 
-
+## Visualizations
 **Data Exploration and Analysis**
+<br/> Below is the plot to analyze the pattern in the feature columns(servings, protein, sugar, carbohydrates, calories) with respect to the target(for high/low traffic).
 ![Pair plot of Numeric columns](imgs/pair_plot.png)
+
+**Model Development**
+<br/> Below are plots for the champion model.
+<br/>The first plot is a confusion matrix, highlighting the model's performance in classifying unseen data.
+![confusion matrix](imgs/champion_model_confusion_matrix.png)
+<br/>The second plot is a receiver operating characteristic curve. The closer the curve leans to the vertical left y-axis (orange line), the better the model. The dashed diagonal blue line represents a random choice model and can be used as a baseline.
+![roc curve](imgs/champion_model_roc.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
