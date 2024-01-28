@@ -1,7 +1,9 @@
+fastapi
 optuna
 numpy
 pandas 
 plotly
 seaborn
 sklearn
+uvicorn
 xgboost

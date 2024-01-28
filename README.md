@@ -16,7 +16,8 @@ The dataset contains information about recipes that have historically generated 
 2. **Analysis:** Uncover insights into the characteristics of recipes that lead to high traffic. [Link to Notebook](notebooks/data_analysis.ipynb)
 3. **Model Development:** Build a predictive model to accurately forecast popular recipes. [Link to Notebook](notebooks/predictive_modelling.ipynb)
 4. **Evaluation:** Assess the model's performance and refine as necessary for optimal predictions. [Link to Notebook](notebooks/predictive_modelling.ipynb)
-5. **DataOps + MLOps:** Steps to ensure the model is seamlessly integrated into production, continuously monitored, and efficiently manages data operations and machine learning operations for sustained performance and reliability.
+5. **Interactive API Endpoints**: Enhance the usability of the model by implementing interactive API endpoints, facilitating seamless interaction for prediction generation.  For more details, refer to the [app README](app/README.md).
+6. **DataOps + MLOps:** Steps to ensure the model is seamlessly integrated into production, continuously monitored, and efficiently manages data operations and machine learning operations for sustained performance and reliability.
 
 ## Visualizations
 **Data Exploration and Analysis**
