@@ -31,5 +31,11 @@ The dataset contains information about recipes that have historically generated 
 <br/>The second plot is a receiver operating characteristic curve. The closer the curve leans to the vertical left y-axis (orange line), the better the model. The dashed diagonal blue line represents a random choice model and can be used as a baseline.
 ![roc curve](imgs/champion_model_roc.png)
 
+**Interacting with the Model**
+- CLI (coming soon)
+- REST API controllers/endpoints
+- REST API
+![Prediction on Swagger](./imgs/swagger_response_prediction.png)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

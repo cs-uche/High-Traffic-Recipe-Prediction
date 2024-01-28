@@ -13,3 +13,16 @@ Utilizing FastAPI, chosen for its efficiency and comprehensive self-documenting 
 - **Input Validation Class**: Ensures that incoming data adheres to specified criteria, enhancing the robustness of the system.
 
 - **Service Encapsulation**: The API encapsulates the service, seamlessly formatting input and generating predictions, contributing to a cohesive and user-friendly experience.
+
+* To run the app
+```bash
+pip install -r ../requirements.txt
+uvicorn --host localhost main:app
+```
+* To interact with the endpoint: use thw Swagger docs `http://ip-address:port/docs` the values for ip-address and port need to be set appropriately.
+**Demo**
+![Request on Swagger](../imgs/swagger_request.png)
+![Prediction on Swagger](../imgs/swagger_response_prediction.png)
+
+**Things Learnt**
+* The Fastapi package needs the predictions to be encodeable. [Link to helpful post](https://stackoverflow.com/questions/69543228/trouble-fixing-cannot-convert-dictionary-update-sequence-element-0-to-a-seque)
